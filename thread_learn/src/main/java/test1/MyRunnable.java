@@ -7,7 +7,7 @@ public class MyRunnable implements Runnable{
 	@Override
 	public void run() {
 		while(true) {
-			synchronized(Integer.class) {
+			synchronized(i) {
 				if(i < 100) {
 					i++;
 					System.out.println("i: " + i);
