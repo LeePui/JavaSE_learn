@@ -3,6 +3,7 @@ package jihe;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.TreeSet;
 
@@ -14,6 +15,7 @@ public class Map1 {
 		ArrayList list = new ArrayList();
 		list.hashCode();
 		TreeSet t;
+		HashSet ht;
 		
 		Object o;
 		
