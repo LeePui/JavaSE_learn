@@ -1,5 +1,9 @@
 package autounboxing;
-
+/**
+ * 自动拆装箱，integer的valueOf方法里保存了
+ * @author 李拜天
+ *
+ */
 public class IntegerTest {
 	
 	public static void main(String[] args) {
